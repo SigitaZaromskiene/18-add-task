@@ -4,8 +4,8 @@ import styles from "./AddNewTas.module.css";
 
 const AddNewTas = (props) => {
   return (
-    <Card className={styles["tasks"]}>
-      <ul>
+    <Card>
+      <ul className={styles["tasks"]}>
         {props.tasks.map((task) => (
           <li>{task.title}</li>
         ))}

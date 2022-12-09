@@ -23,7 +23,7 @@ const AddMainTask = (props) => {
   };
 
   return (
-    <Card>
+    <Card className={styles.container}>
       <form className={styles.form} onSubmit={addTaskHandler}>
         <input
           id="task"

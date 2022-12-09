@@ -1,3 +1,8 @@
+.container {
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
 .form {
   display: flex;
   justify-content: center;
@@ -5,7 +10,7 @@
 }
 
 input {
-  width: 80%;
+  width: 60%;
   justify-content: space-between;
 }
 .button:hover {

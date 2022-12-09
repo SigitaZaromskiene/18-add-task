@@ -1,7 +1,9 @@
 .card {
   border-radius: 15px;
-  padding: 20px 10px;
-  border: 1px solid black;
   box-shadow: 0 3px 6px #0003;
-  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 20px 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgb(147, 147, 54);
 }

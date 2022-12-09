@@ -1,15 +1,14 @@
 .tasks {
-  margin: 2rem auto;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 calc(50% - 334px);
 }
 
-.tasks li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #ccc;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  width: 80%;
+li {
   list-style: none;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 0px;
 }
