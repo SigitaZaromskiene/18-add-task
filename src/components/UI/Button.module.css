@@ -1,0 +1,11 @@
+.btn {
+  height: 30px;
+  width: 50px;
+  border-radius: 15px;
+  padding: 5px 20px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+  box-shadow: 0 3px 6px #0003;
+  background-color: white;
+}

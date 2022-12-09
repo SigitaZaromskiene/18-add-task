@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+input {
+  width: 80%;
+  justify-content: space-between;
+}
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
