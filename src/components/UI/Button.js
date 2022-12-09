@@ -3,13 +3,13 @@ import styles from "./Button.module.css";
 
 const Button = (props) => {
   return (
-    <div
-      onClick={props.onClick}
+    <button
       className={`${styles.btn} ${props.className}`}
-      type={props.type}
+      type={props.type || "button"}
+      onClick={props.onClick}
     >
       {props.children}
-    </div>
+    </button>
   );
 };
 
